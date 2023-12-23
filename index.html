@@ -12,27 +12,27 @@
         <div class="logo">Zachary Artman</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a id="desktop-nav-about">About</a></li>
+                <li><a id="desktop-nav-experience">Experience</a></li>
+                <li><a id="desktop-nav-projects">Projects</a></li>
+                <li><a id="desktop-nav-contact">Contact</a></li>
             </ul>
         </div>
     </nav>
     <nav id="hamburger-nav">
         <div class="logo">Zachary Artman</div> 
         <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
+            <div id="hamburger-icon" class="hamburger-icon">
                 <!-- 3 span objects act as hamburger icon -->
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a id="hamburger-nav-about">About</a></li>
+                <li><a id="hamburger-nav-experience">Experience</a></li>
+                <li><a id="hamburger-nav-projects">Projects</a></li>
+                <li><a id="hamburger-nav-contact">Contact</a></li>
             </div>    
         </div>
     </nav>
@@ -45,13 +45,23 @@
             <p class="section__text__p2">Software Developer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/zachary-artman-resume.pdf')">View Resume</button>
-                <button class="btn btn-color-1" onclick="location.href='/.#contact'">Contact</button>
+                <button class="btn btn-color-1" onclick="scrollToContact()">Contact</button>
             </div>
             <div class="socials-container">
                 <img src="./assets/linkedin.png" alt="Zachary Artman LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/in/zacharyartman'">
                 <img src="./assets/github.png" alt="Zachary Artman GitHub page" class="icon" onclick="location.href='https://github.com/zacharyartman'">
             </div>
         </div>
+    </section>
+    <section id="experience">
+        Experience
+    </section>
+    <section id="projects">
+        Projects
+    </section>
+
+    <section id="contact">
+        Contact
     </section>
     <script src="script.js"></script>
 </body>
