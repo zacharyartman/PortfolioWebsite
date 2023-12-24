@@ -37,7 +37,7 @@ nav a,
   text-decoration-color: white;
 }
 
-#desktop-nav a:hover
+#desktop-nav a:hover,
 .contact-info-container p:hover {
   cursor: pointer;
   color: grey;
