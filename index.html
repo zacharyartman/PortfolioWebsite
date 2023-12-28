@@ -1,333 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zachary Artman</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./mediaqueries.css" />
 
-    <link rel="icon" href="./assets/favicon_io/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="./assets/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon_io/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon_io/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
-  </head>
-  <body>
-    <nav id="desktop-nav">
-      <div class="logo">Zachary Artman</div>
-      <div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zachary Artman</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./mediaqueries.css" />
+
+  <link rel="icon" href="./assets/favicon_io/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon_io/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon_io/android-chrome-512x512.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Zachary Artman</div>
+    <div>
+      <ul class="nav-links">
+        <li><a id="desktop-nav-about">About</a></li>
+        <li><a id="desktop-nav-experience">Experience</a></li>
+        <li><a id="desktop-nav-projects">Projects</a></li>
+        <li><a id="desktop-nav-contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Zachary Artman</div>
+    <div class="hamburger-menu">
+      <div id="hamburger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a id="hamburger-nav-about">About</a></li>
+        <li><a id="hamburger-nav-experience">Experience</a></li>
+        <li><a id="hamburger-nav-projects">Projects</a></li>
+        <li><a id="hamburger-nav-contact">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.jpeg" alt="Zachary Artman Profile Pic" class="main-profile-pic" />
+    </div>
+    <div class="section__text">
+      <h1 class="title">Zachary Artman</h1>
+      <p class="section__text__p2">Software Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" id="view-resume-button">
+          View Resume
+        </button>
+        <button class="btn btn-color-1" id="profile-contact-button">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="Zachary Artman LinkedIn profile" class="icon" id="linkedin-button" />
+        <img src="./assets/github.png" alt="Zachary Artman GitHub page" class="icon" id="github-button" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.jpg" alt="Zachary Artman About Pic" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>Internships in Software & Engineering <br />Frontend Development, Automation Testing,
+              Programming</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.A. Computer Science<br />University of San Diego <br> Graduating May 2024</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am a dedicated Computer Science student at
+            the University of San Diego, I've engaged in several internships,
+            developing skills in frontend development, automation testing, and
+            diverse programming languages. My academic focus is complemented
+            by practical experiences in software engineering, where I apply my
+            knowledge in Python, Java, JavaScript, SQL and HTML. My interests in AI and
+            technology innovations drive my passion for continuous learning
+            and application in the real world.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Related Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Java</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>SQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Related Internships</h2>
+          <div class="article-container-internships">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Software/QA Engineer Intern</h3>
+                <p>Teledyne RD Instruments</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Engineering Intern</h3>
+                <p>PoEWit Technologies</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Flight Booking Simulator" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Flight Booking Simulator</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" id="project1-github-button">
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Global Expense Splitter" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Global Expense Splitter</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" id="project2-github-button">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" id="project2-live-demo-button">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Auto Detailing Website</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" id="project3-github-button">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" id="project3-live-demo-button">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:zacharyartman@icloud.com">zacharyartman@icloud.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/zacharyartman">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
         <ul class="nav-links">
-          <li><a id="desktop-nav-about">About</a></li>
-          <li><a id="desktop-nav-experience">Experience</a></li>
-          <li><a id="desktop-nav-projects">Projects</a></li>
-          <li><a id="desktop-nav-contact">Contact</a></li>
+          <li><a id="footer-nav-about">About</a></li>
+          <li><a id="footer-nav-experience">Experience</a></li>
+          <li><a id="footer-nav-projects">Projects</a></li>
+          <li><a id="footer-nav-contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Zachary Artman</div>
-      <div class="hamburger-menu">
-        <div id="hamburger-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a id="hamburger-nav-about">About</a></li>
-          <li><a id="hamburger-nav-experience">Experience</a></li>
-          <li><a id="hamburger-nav-projects">Projects</a></li>
-          <li><a id="hamburger-nav-contact">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.jpeg" alt="Zachary Artman Profile Pic" class="main-profile-pic"/>
-      </div>
-      <div class="section__text">
-        <h1 class="title">Zachary Artman</h1>
-        <p class="section__text__p2">Software Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            id="view-resume-button"
-          >
-            View Resume
-          </button>
-          <button 
-          class="btn btn-color-1" 
-          id="profile-contact-button">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="Zachary Artman LinkedIn profile"
-            class="icon"
-            id="linkedin-button"/>
-          <img
-            src="./assets/github.png"
-            alt="Zachary Artman GitHub page"
-            class="icon"
-            id="github-button"/>
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/about-pic.jpg"
-            alt="Zachary Artman About Pic"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>Internships in Software & Engineering <br />Frontend Development, Automation Testing,
-                Programming</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.A. Computer Science<br />University of San Diego <br> Graduating May 2024</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              I am a dedicated Computer Science student at
-              the University of San Diego, I've engaged in several internships,
-              developing skills in frontend development, automation testing, and
-              diverse programming languages. My academic focus is complemented
-              by practical experiences in software engineering, where I apply my
-              knowledge in Python, Java, JavaScript, SQL and HTML. My interests in AI and
-              technology innovations drive my passion for continuous learning
-              and application in the real world.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="experience">
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Related Skills</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Java</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>SQL</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Related Internships</h2>
-            <div class="article-container-internships">
-              <article>
-                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                  <div>
-                      <h3>Software/QA Engineer Intern</h3>
-                      <p>Teledyne RD Instruments</p>
-                  </div>
-              </article>
-              <article>
-                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                  <div>
-                      <h3>Engineering Intern</h3>
-                      <p>PoEWit Technologies</p>
-                  </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Flight Booking Simulator"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Flight Booking Simulator</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                id="project1-github-button">
-                Github
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Global Expense Splitter"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Global Expense Splitter</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                id="project2-github-button"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                id="project2-live-demo-button"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Auto Detailing Website</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                id="project3-github-button"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                id="project3-live-demo-button"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:zacharyartman@icloud.com">zacharyartman@icloud.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/zacharyartman">LinkedIn</a></p>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a id="footer-nav-about">About</a></li>
-            <li><a id="footer-nav-experience">Experience</a></li>
-            <li><a id="footer-nav-projects">Projects</a></li>
-            <li><a id="footer-nav-contact">Contact</a></li>
-            </ul>
-        </div>
-      </nav>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
