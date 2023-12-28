@@ -1,3 +1,6 @@
 [submodule "fairshare"]
 	path = fairshare
 	url = https://github.com/zacharyartman/fair-share-dining.git
+[submodule "detailing"]
+	path = detailing
+	url = https://github.com/zacharyartman/DetailingWebsite
